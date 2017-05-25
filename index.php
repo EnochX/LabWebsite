@@ -1,8 +1,8 @@
 <?php
-
+require_once './utils/dbConn.php';
 session_start();
 include "header.php";
-
+$con = dbConn();
 ?>	
 
 	<div class="page-header">
@@ -59,7 +59,7 @@ include "header.php";
 				<div class="col-sm-5 info">
 					<h3>
 						<i class="icon-laptop icon-large"></i>最新动态
-						<small class = "pull-right"><a href = "blog.html">更多</a></small>
+						<small class = "pull-right"><a href = "info.php">更多</a></small>
 					</h3>
 					<ul>
 						<li><a href="#"><i class="icon-pencil"></i>ALTERA宣布推出新一代低成本FPGA</a></li>
@@ -76,10 +76,10 @@ include "header.php";
 				<div class="col-sm-5 col-sm-offset-1 info info-left">
 					<h3>
 						<i class="icon-info icon-large"></i> 信息公告
-						<small class = "pull-right"><a href = "blog.html">更多</a></small>
+						<small class = "pull-right"><a href = "info.php">更多</a></small>
 					</h3>
 					<ul>
-						<li><p><i class="icon-calendar"></i> 2017-5-5</p><a href="#">【预告】lab369研讨会第五期--主题：人体姿势估计 主讲人：张均 时间：2017-5-11 19:00</a></li>
+						<li><p><i class="icon-calendar"></i> 2017-5-5</p><a href="#">【预告】lab369研讨会第五期--主题：图像处理与深度学习 主讲人：张均 时间：2017-5-11 19:00</a></li>
 						<li><p><i class="icon-calendar"></i> 2017-5-3</p><a href="#">lab369研讨会第四期--主题：异构计算集群变成模型 主讲人：王磊 时间：2017-5-4 19:00</a></li>
 						<li><p><i class="icon-calendar"></i> 2017-4-26</p><a href="#">lab369研讨会第三期--主题：深度学习在图像语义分割中的应用 主讲人：相恒亮 时间：2017-4-27 18:00</a></li>
 					</ul>

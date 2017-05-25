@@ -63,7 +63,13 @@
 								<li><a href="gallery.php">相册</a></li>
 							</ul>
 						</li>
-						<li><a href="#">信息动态</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">信息公告 <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="news.php">最新动态</a></li>
+								<li><a href="info.php">通知公告</a></li>
+							</ul>
+						</li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">支持服务 <b class="caret"></b></a>
 							<ul class="dropdown-menu">
@@ -116,7 +122,14 @@
 					<li class="submenu-item"><a href="gallery.php">相册</a></li>
 				</ul>
 			</li>
-			<li><a href="about.html"><i class="icon-info icon-2x"></i> <br/>信息动态</a></li>
+			<li>
+				<a class="flyout" href="#"><i class="icon-info icon-2x"></i> <br/>信息公告 <i class="icon-caret-right"></i></a>
+				<ul class="submenu">
+					<li class="submenu-section"><i class="icon-plus"></i> 信息公告</li>
+					<li class="submenu-item"><a href="news.php">最新动态</a></li>
+					<li class="submenu-item"><a href="info.php">通知公告</a></li>
+				</ul>
+			</li>
 			<li>
 				<a class="flyout" href="#"><i class="icon-cog icon-2x"></i> <br/>支持服务 <i class="icon-caret-right"></i></a>
 				<ul class="submenu">
@@ -133,16 +146,16 @@
 			if(!isset($userInfo)){
 		?>
 			<div class="login-strip">
-				<a href="register.html"><i class="icon-plus"></i> Sign Up</a> 
-				<a href="login.html"><i class="icon-signin"></i> Sign In</a>
+				<a href="#">&nbsp;&nbsp;&nbsp;Welcome!&nbsp;&nbsp;&nbsp;</a> 
+				<a href="login.php"><i class="icon-signin"></i> 登录</a>
 			</div>
 		<?php
 			}
 			else{
 		?>
 			<div class="login-strip">
-				<a href="#"><i class="icon-plus"></i> Hello!</a> 
-				<a href="login.html"><i class="icon-signin"></i> Sign Out</a>
+				<a href="#">&nbsp;&nbsp;&nbsp;Hello!&nbsp;&nbsp;&nbsp;</a> 
+				<a href="logout.php"><i class="icon-signin"></i> 退出登录</a>
 			</div>
 		<?php
 			}

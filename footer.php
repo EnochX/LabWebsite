@@ -40,12 +40,10 @@
 						</div>			
 						<hr class="visible-xs" />
 						<div class="col-sm-4 footer-newsletter">
-							<h5>Newsletter</h5>
-							<p class="justify">Sign up with our newsletter and make sure you get the latest updates on all events, articles and collaborations.</p>
-							<form role="form">
-								<input type="text" class="form-control" placeholder="Enter your e-mail" style="width:95%;margin-bottom:10px;	"/> 
-								<input type="submit" class="btn btn-default btn-footer" value="Subscribe" />
-							</form>
+							<h5>网站建设</h5>
+							<p class="justify">严健康 14210720xxx@fudan.edu.cn</p>
+							<p class="justify">李&nbsp;&nbsp;&nbsp;超 15210720xxx@fudan.edu.cn</p>
+							<p class="justify">朱欣瑜 16210720xxx@fudan.edu.cn</p>
 						</div>
 					</div>		
 				</div>
@@ -63,5 +61,6 @@
 		<script src="./includes/js/bxslider/jquery.bxslider.min.js"></script>
 		<script src="./includes/js/default.js"></script>
 		<script src="./includes/js/isotope/jquery.isotope.min.js"></script>
+		
 	</body>
 </html>
